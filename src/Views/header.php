@@ -15,6 +15,9 @@
         <div class="logo">
             <img src="<?=URL_BASE?>resources/imagens/logo.jpeg">
         </div>
+        <div class="btn-menu">
+          <span>Menu</span>
+        </div>
         <div class="menus">
             <div class="menu">
               <ul>
@@ -27,8 +30,8 @@
             </div>
             <div class="social">
               <span>Siga-me: </span>
-              <a href="#"><i class="fab fa-facebook-f" style="font-size: 1.2rem; color: #FFF;"></i></a>
-              <a href="#"><i class="fab fa-instagram" style="font-size: 1.5rem; color: #FFF;"></i>
+              <a href="#"><i class="fab fa-facebook-f" style="font-size: 1.2rem; color: #000;"></i></a>
+              <a href="#"><i class="fab fa-instagram" style="font-size: 1.5rem; color: #000"></i>
             </div>
         </div>
     </div>

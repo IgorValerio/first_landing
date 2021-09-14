@@ -8,33 +8,64 @@ header{
       display: inline-flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 4px;
+      padding-top: 4px;   
 
-    .menus{
+      .btn-menu{
+        color:#FFF;
+        height: 100%;
         display: inline-flex;
         align-items: center;
-        justify-content: flex-end;
-        width: 100%;
-
+        padding: 0 20px;
+        background-color: #333;
+        cursor: pointer;
+      }
+    .menus{
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 99px;
+        width: 250px;
+        background-color:#CCC;
+        height: calc(100vh - 99px);
+        //display: none;
+        //align-items: center;
+        //justify-content: flex-end;
+        //width: 100%;
+    
         .menu{
-            width: auto;
+            //width: auto;
+              &:before{
+                width: 100vw;
+                height: 100%;
+                background-color: #0000005c;
+                content: " ";
+                position: absolute;
+                left: -100vw;
+              }
+            background-color: #FFF;
+            width: 100%;
+            display: block;
 
             ul{
               display: inline-flex;
               width: auto;
               justify-content: space-between;
+              flex-wrap: wrap;
 
               li{
-                padding: 0 45px;
+                width: 100%;
+                padding: 10px 45px;
 
                 a{
-                  color: #FFF;
+                  color: #333;
+                  //color: #FFF;
                   position: relative;
                   padding: 9px 0px;
                   &:after{
                     width: 0;
                     height: 2px;
-                    background-color: #fff;
+                    background-color: #333;
+                   // background-color: #fff;
                     content: ' ';
                     bottom: 0;
                     position: absolute;
@@ -52,10 +83,13 @@ header{
             }
         }
         .social{
-            padding-left: 45px;
+            color: #333;
+            width: 100%;
+            padding: 10px;
+           // padding-left: 45px;
             display: inline-flex;
             align-items: center;
-            color: #FFF;
+            //color: #FFF;
 
             a{
               margin-left: 14px;
