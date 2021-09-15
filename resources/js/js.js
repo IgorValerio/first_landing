@@ -1,8 +1,12 @@
 $(document).ready(function(){
     $('.btn-menu').on('click', function(){
-      alert('teste');
+      toggleMenu($('.menus'));
     });
     $('.menus').before().on('click', function(){
-      alert('teste');
+      toggleMenu($('.menus'));
     });
+
+    function toggleMenu(menu){
+        menu.toggleClass('active');
+    }
 });

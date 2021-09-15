@@ -18,7 +18,7 @@
         <div class="btn-menu">
           <span>Menu</span>
         </div>
-        <div class="menus active">
+        <div class="menus">
             <div class="menu">
               <ul>
                 <li><a href="#">Quem sou eu</a></li>
