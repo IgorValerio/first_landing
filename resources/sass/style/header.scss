@@ -20,6 +20,10 @@ header{
           padding: 0 20px;
           background-color: #333;
           cursor: pointer;
+
+          @include desktop{
+            display: none;
+          }
         }
         .menus{
 
@@ -41,48 +45,75 @@ header{
             display: block;
             position: fixed;
             right: -250px;
-            top: 111px;
+            top: 99px;
             width: 250px;
             background-color:#fff;
-            height: calc(100vh - 111px);
+            height: calc(100vh - 99px);
             transition: .5s;
-            //display: none;
-            //align-items: center;
-            //justify-content: flex-end;
-            //width: 100%;
-        
+
+            @include desktop{
+
+              display: inline-flex;
+              align-items: center;
+              justify-content: flex-end;
+              width: 100%;
+              position: relative;
+              right: initial;
+              top: initial;
+              background-color:transparent;
+              height: initial;
+            }
+            
             .menu{
                 width: 100%;
                 display: block;
-                //width: auto;
-              
+                @include desktop{
+                  width: auto;
+                }
                 ul{
 
+                  flex-wrap: wrap;
                   display: inline-flex;
                   width: auto;
                   justify-content: space-between;
-                  flex-wrap: wrap;
+
+                  @include desktop{
+                      flex-wrap: initial;
+
+                  }
 
                   li{
                     width: 100%;
                     padding: 10px 10px;
 
+                    @include desktop{
+                        padding: 0 25px;
+                        width: auto;
+                    }
                     a{
-                      color: #333;
-                      //color: #FFF;
+                     
+                      color: #333;           
                       position: relative;
                       padding: 9px 0px;
+
+                      @include desktop{
+                          color: #FFF;
+                      }
+
                       &:after{
 
+                          background-color: #333;
                           width: 0;
                           height: 2px;
-                          background-color: #333;
-                        // background-color: #fff;
                           content: ' ';
                           bottom: 0;
                           position: absolute;
                           left: 0;
                           transition: .25s;
+
+                          @include desktop{
+                            background-color: #fff;
+                          }
                       }
 
                       &:hover{
@@ -97,15 +128,30 @@ header{
             .social{
                 color: #333;
                 width: 100%;
-                padding: 10px 10px;
-              // padding-left: 45px;
+                padding: 10px 10px; 
                 display: inline-flex;
                 align-items: center;
-                //color: #FFF;
 
                 a{
                   margin-left: 14px;
+                  i{
+                    font-size: 1.2rem;
+                    color: #000;
+
+                    @include desktop{
+                      color: #fff;
+                      width: auto;
+                    }    
+                  }
                 }
+
+                @include desktop{
+                  padding-left: 45px;
+                  color: #FFF;
+                  width: auto;
+                  padding: 0; 
+                  padding: 0 0 0 25px;
+                } 
             }
         }
     }

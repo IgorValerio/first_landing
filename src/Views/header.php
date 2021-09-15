@@ -30,8 +30,8 @@
             </div>
             <div class="social">
               <span>Siga-me: </span>
-              <a href="#"><i class="fab fa-facebook-f" style="font-size: 1.2rem; color: #000;"></i></a>
-              <a href="#"><i class="fab fa-instagram" style="font-size: 1.5rem; color: #000"></i>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i>
             </div>
         </div>
     </div>
