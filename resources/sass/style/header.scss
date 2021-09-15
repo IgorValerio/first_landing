@@ -90,6 +90,10 @@ header{
                         padding: 0 25px;
                         width: auto;
                     }
+
+                    @include desktop-hd{
+                      padding: 0 45px;
+                    }
                     a{
                      
                       color: #333;           
@@ -132,6 +136,16 @@ header{
                 display: inline-flex;
                 align-items: center;
 
+                @include desktop{
+                  color: #FFF;
+                  width: auto;
+                  padding: 0 0 0 25px;
+                } 
+
+                @include desktop-hd{
+                  padding: 0 0 0 45px;
+                }
+
                 a{
                   margin-left: 14px;
                   i{
@@ -143,14 +157,6 @@ header{
                       width: auto;
                     }    
                   }
-                }
-
-                @include desktop{
-                  padding-left: 45px;
-                  color: #FFF;
-                  width: auto;
-                  padding: 0; 
-                  padding: 0 0 0 25px;
                 } 
             }
         }

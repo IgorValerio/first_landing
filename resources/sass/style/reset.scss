@@ -1,8 +1,11 @@
 $tablet:			768;
 $desktop:			1024;
+$desktop-hd:     1400;
 
 @mixin tablet		{ @media screen and (min-width: #{$tablet}px) { @content; } }
 @mixin desktop		{ @media screen and (min-width: #{$desktop}px) { @content; } }
+@mixin desktop-hd		{ @media screen and (min-width: #{$desktop-hd}px) { @content; } }
+
 
 
 html, body, div, span, applet, object, iframe,
