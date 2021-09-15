@@ -1,100 +1,112 @@
 header{
-  display: inline-flex;
-  width: 100%;
-  background-color: rgba(0,0,0,0.7);
-  position: fixed;
-  z-index: 2;
-	.container{
-      display: inline-flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-top: 4px;   
+    display: inline-flex;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 2;
 
-      .btn-menu{
-        color:#FFF;
-        height: 100%;
+    .container{
         display: inline-flex;
+        justify-content: space-between;
         align-items: center;
-        padding: 0 20px;
-        background-color: #333;
-        cursor: pointer;
-      }
-    .menus{
-        display: block;
-        position: fixed;
-        right: 0;
-        top: 99px;
-        width: 250px;
-        background-color:#CCC;
-        height: calc(100vh - 99px);
-        //display: none;
-        //align-items: center;
-        //justify-content: flex-end;
-        //width: 100%;
-    
-        .menu{
-            //width: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;   
+
+        .btn-menu{
+          color:#FFF;
+          height: 100%;
+          display: inline-flex;
+          align-items: center;
+          padding: 0 20px;
+          background-color: #333;
+          cursor: pointer;
+        }
+        .menus{
+
+            &.active{
+              right: 0;
               &:before{
                 width: 100vw;
-                height: 100%;
-                background-color: #0000005c;
-                content: " ";
-                position: absolute;
-                left: -100vw;
-              }
-            background-color: #FFF;
-            width: 100%;
-            display: block;
-
-            ul{
-              display: inline-flex;
-              width: auto;
-              justify-content: space-between;
-              flex-wrap: wrap;
-
-              li{
-                width: 100%;
-                padding: 10px 45px;
-
-                a{
-                  color: #333;
-                  //color: #FFF;
-                  position: relative;
-                  padding: 9px 0px;
-                  &:after{
-                    width: 0;
-                    height: 2px;
-                    background-color: #333;
-                   // background-color: #fff;
-                    content: ' ';
-                    bottom: 0;
-                    position: absolute;
-                    left: 0;
-                    transition: .25s;
-                  }
-
-                  &:hover{
-                        &:after{
-                            width: 100%;
-                        }
-                  }
-                }
               }
             }
-        }
-        .social{
-            color: #333;
-            width: 100%;
-            padding: 10px;
-           // padding-left: 45px;
-            display: inline-flex;
-            align-items: center;
-            //color: #FFF;
 
-            a{
-              margin-left: 14px;
+            &:before{
+              width: 0;
+              height: 100%;
+              background-color: #0000005c;
+              content: " ";
+              position: absolute;
+              left: -100vw;
+            }
+            display: block;
+            position: fixed;
+            right: -250px;
+            top: 111px;
+            width: 250px;
+            background-color:#fff;
+            height: calc(100vh - 111px);
+            transition: .25s;
+            //display: none;
+            //align-items: center;
+            //justify-content: flex-end;
+            //width: 100%;
+        
+            .menu{
+                width: 100%;
+                display: block;
+                //width: auto;
+              
+                ul{
+
+                  display: inline-flex;
+                  width: auto;
+                  justify-content: space-between;
+                  flex-wrap: wrap;
+
+                  li{
+                    width: 100%;
+                    padding: 10px 10px;
+
+                    a{
+                      color: #333;
+                      //color: #FFF;
+                      position: relative;
+                      padding: 9px 0px;
+                      &:after{
+
+                          width: 0;
+                          height: 2px;
+                          background-color: #333;
+                        // background-color: #fff;
+                          content: ' ';
+                          bottom: 0;
+                          position: absolute;
+                          left: 0;
+                          transition: .25s;
+                      }
+
+                      &:hover{
+                            &:after{
+                                width: 100%;
+                            }
+                      }
+                    }
+                  }
+                }
+            }
+            .social{
+                color: #333;
+                width: 100%;
+                padding: 10px 10px;
+              // padding-left: 45px;
+                display: inline-flex;
+                align-items: center;
+                //color: #FFF;
+
+                a{
+                  margin-left: 14px;
+                }
             }
         }
     }
-  }
 }
