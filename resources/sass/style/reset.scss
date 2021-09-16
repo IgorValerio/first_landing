@@ -79,3 +79,24 @@ a{
       margin:0 auto;
       padding: 0 25px;
 }
+
+.titulo{
+  position: relative;
+    &:after{
+        width: 100%;
+        max-width: 150px;
+        height: 5px;
+        position: absolute;
+        content: ' ';
+        background-color: #fff;
+        bottom: 0%;
+        left: 0;
+    }
+}
+
+.btn-principal{
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 13px 28px;
+  color: #fff;
+}
