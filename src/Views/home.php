@@ -4,7 +4,7 @@
 <section class="quem_sou_eu">
       <div class="container">
         <div class="conteudo">
-            <img src="<?=URL_BASE?>resources/imagens/tonho.jpg">
+            <img src="<?=URL_BASE?>resources/imagens/tonho2.jpg">
             <div class="texto">
               <h1 class="titulo">Quem sou eu?</h1>
               <div class="descricao">

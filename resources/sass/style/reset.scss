@@ -1,7 +1,9 @@
 $tablet:			768;
 $desktop:			1024;
-$desktop-hd:     1400;
+$desktop-hd:  1400;
+$smart-phone: 760;
 
+@mixin smart-phone	{ @media screen and (min-width: #{$smart-phone}px) { @content; } }
 @mixin tablet		{ @media screen and (min-width: #{$tablet}px) { @content; } }
 @mixin desktop		{ @media screen and (min-width: #{$desktop}px) { @content; } }
 @mixin desktop-hd		{ @media screen and (min-width: #{$desktop-hd}px) { @content; } }
