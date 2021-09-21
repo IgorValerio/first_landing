@@ -46,7 +46,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quas delectus a accusamus architecto consequuntur
                     adipisci facilis exercitationem magni reiciendis aperiam suscipit odit, quidem nemo quo! Eos quia facere corporis?
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, vel explicabo. Repellat aperiam dolore id odio ducimus at,
-                    quia, iste quibusdam reprehenderit perferendis nihil non exercitationem officiis adipisci eius. Debitis!
+                    quia, iste quibusdam reprehende. Debitis!
                     </p>
                     
                     <p>
@@ -66,22 +66,22 @@
                   <h3 class="titulo">Titulo do Evento 2 vem aqui</h3>
                   <div class="descricao">
                     <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aliquam quibusdam nobis ut maxime,
-                    ab molestiae fugit reprehenderit odit cum totam magnam nulla impedit minus ex, distinctio, eos blanditiis rerum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti tenetur explicabo rem, harum odio illo!
-                    </p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aliquam quibusdam nobis ut maxime,
+                      ab molestiae fugit reprehenderit odit cum totam magnam nulla impedit minus ex, distinctio, eos blanditiis rerum.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti tenetur explicabo rem, harum odio illo!
+                      </p>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quas delectus a accusamus architecto consequuntur
-                    adipisci facilis exercitationem magni reiciendis aperiam suscipit odit, quidem nemo quo! Eos quia facere corporis?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, vel explicabo. Repellat aperiam dolore id odio ducimus at,
-                    quia, iste quibusdam reprehenderit perferendis nihil non exercitationem officiis adipisci eius. Debitis!
+                      adipisci facilis exercitationem magni reiciendis aperiam suscipit odit, quidem nemo quo! Eos quia facere corporis?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, vel explicabo. Repellat aperiam dolore,
+                      . Debitis!
                     </p>
                     
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptas sapiente debitis, quasi qui neque ex itaque excepturi
-                    autem culpa nihil aspernatur soluta enim nisi cumque modi ducimus rerum. Aliquid. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Adipisci maxime deleniti non ipsa quo perferendis accusamus ab reiciendis, quidem odio illum totam soluta! Earum alias, ab saepe
-                    quasi quisquam impedit!
+                      autem culpa nihil aspernatur soluta enim nisi cumque modi ducimus rerum. Aliquid. Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Adipisci maxime deleniti non ipsa quo perferendis accusamus ab reiciendis, quidem odio illum totam soluta! Earum alias, ab saepe
+                      quasi quisquam impedit!
                     </p>
                     
                   </div>
