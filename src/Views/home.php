@@ -155,4 +155,34 @@
     </div>
 </section>
 
+<section class="videos">
+    <div class="container">
+      <div class="conteudo">
+          <h2 class="titulo">Vídeos</h2>
+          <div class="texto">
+            <h3 class="subtitulo">Canal do Youtube</h3>
+            <a href="#" class="btn-principal" target="_blank">Inscreva-se</a>
+          </div>
+          <div class="lista">
+            <div class="item">
+              <img src="<?=URL_BASE?>resources/imagens/gato-branco.png">
+                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+            </div>
+            <div class="item">
+              <img src="<?=URL_BASE?>resources/imagens/gato-preto.png">
+                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+            </div>
+            <div class="item">
+              <img src="<?=URL_BASE?>resources/imagens/gato-rajado.png">
+                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+            </div>
+            <div class="item">
+              <img src="<?=URL_BASE?>resources/imagens/gato-susto.png">
+                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+            </div>
+          </div>
+      </div>
+    </div>
+</section>
+
 <?=$this->fetch('footer.php')?>
