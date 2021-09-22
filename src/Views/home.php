@@ -166,19 +166,19 @@
           <div class="lista">
             <div class="item">
               <img src="<?=URL_BASE?>resources/imagens/gato-branco.png">
-                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+                <h4 class="titulo-video">Você influencia as pessoas ou é influenciado.</h4>
             </div>
             <div class="item">
               <img src="<?=URL_BASE?>resources/imagens/gato-preto.png">
-                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+                <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
             </div>
             <div class="item">
               <img src="<?=URL_BASE?>resources/imagens/gato-rajado.png">
-                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+                <h4 class="titulo-video">Você influencia as pessoas ou é influenciado.</h4>
             </div>
             <div class="item">
               <img src="<?=URL_BASE?>resources/imagens/gato-susto.png">
-                <h4 class="titulo-video">Aqui vem o titulo do video</h4>
+                <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
             </div>
           </div>
       </div>
