@@ -180,6 +180,10 @@
               <img src="<?=URL_BASE?>resources/imagens/gato-susto.png">
                 <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
             </div>
+            <div class="item">
+              <img src="<?=URL_BASE?>resources/imagens/gato-susto.png">
+                <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
+            </div>
           </div>
       </div>
     </div>
