@@ -189,4 +189,41 @@
     </div>
 </section>
 
+<section class="fale_comigo">
+  <div class="container">
+    <div class="conteudo">
+        <div class="texto">
+            <h2 class="titulo">Fale Comigo</h2>
+            <div class="itens">
+              <div class="item">
+                <h3>Telefone:</h3>
+                <div class="detalhes">
+                  <i class="fab fa-whatsapp">
+                    +55 35 99999-9999
+                  </i>
+                </div>
+              </div>
+              <div class="item">
+                <h3>Email:</h3>
+                <div class="detalhes">
+                  <i class="fas fa-envelope-square">
+                    contato@juniorride.com.br
+                  </i>
+                </div>
+              </div>
+              <div class="item">
+                <h3>Siga-me:</h3>
+                <div class="detalhes">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-youtube"></i>
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+        <img class="img_contato" src="<?=URL_BASE?>resources/imagens/dado-email.png">
+      </div>
+    </div>
+</section>
+
 <?=$this->fetch('footer.php')?>
