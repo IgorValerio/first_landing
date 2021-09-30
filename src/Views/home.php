@@ -209,22 +209,28 @@
                 <h3>Telefone:</h3>
                 <div class="detalhes">
                   <i class="fab fa-whatsapp"></i>
-                   +55 35 99999-9999
+                   <a href="tel:55 35 99999-9999">+55 35 99999-9999</a>
                 </div>
               </div>
               <div class="item">
                 <h3>Email:</h3>
                 <div class="detalhes">
                   <i class="fas fa-envelope-square"></i>
-                  contato@juniorride.com.br
+                  <a href="mailto:igorv386@gmail.com" target="_blank">igorv386@gmail.com</a>
                 </div>
               </div>
               <div class="item">
                 <h3>Siga-me:</h3>
                 <div class="detalhes">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-youtube"></i>
-                  <i class="fab fa-instagram"></i>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
                 </div>
               </div>
             </div>
