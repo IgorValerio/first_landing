@@ -165,24 +165,34 @@
           </div>
           <div class="lista">
             <div class="item">
-              <img src="<?=URL_BASE?>resources/imagens/gato-branco.png">
+              <a href="#" target="_blank">
+                <img src="<?=URL_BASE?>resources/imagens/gato-branco.png">
                 <h4 class="titulo-video">Você influencia as pessoas ou é influenciado.</h4>
+              </a>
             </div>
             <div class="item">
+            <a href="#" target="_blank">
               <img src="<?=URL_BASE?>resources/imagens/gato-preto.png">
-                <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
+              <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
+            </a>    
             </div>
             <div class="item">
-              <img src="<?=URL_BASE?>resources/imagens/gato-rajado.png">
+              <a href="#" target="_blank">
+                <img src="<?=URL_BASE?>resources/imagens/gato-rajado.png">
                 <h4 class="titulo-video">Você influencia as pessoas ou é influenciado.</h4>
+              </a>  
             </div>
             <div class="item">
+            <a href="#" target="_blank">
               <img src="<?=URL_BASE?>resources/imagens/gato-susto.png">
-                <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
+              <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
+            </a>
             </div>
             <div class="item">
-              <img src="<?=URL_BASE?>resources/imagens/gato-susto.png">
+              <a href="#" target="_blank">
+                <img src="<?=URL_BASE?>resources/imagens/gato-susto.png">
                 <h4 class="titulo-video">Os 5 tipos de identidade.</h4>
+              </a>   
             </div>
           </div>
       </div>
