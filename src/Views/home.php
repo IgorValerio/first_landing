@@ -198,17 +198,15 @@
               <div class="item">
                 <h3>Telefone:</h3>
                 <div class="detalhes">
-                  <i class="fab fa-whatsapp">
-                    +55 35 99999-9999
-                  </i>
+                  <i class="fab fa-whatsapp"></i>
+                   +55 35 99999-9999
                 </div>
               </div>
               <div class="item">
                 <h3>Email:</h3>
                 <div class="detalhes">
-                  <i class="fas fa-envelope-square">
-                    contato@juniorride.com.br
-                  </i>
+                  <i class="fas fa-envelope-square"></i>
+                  contato@juniorride.com.br
                 </div>
               </div>
               <div class="item">
