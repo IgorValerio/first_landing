@@ -21,11 +21,11 @@
         <div class="menus">
             <div class="menu">
               <ul>
-                <li><a href="#">Quem sou eu</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Fale Comigo</a></li>
+                <li><a href="quem_sou_eu">Quem sou eu</a></li>
+                <li><a href="eventos">Eventos</a></li>
+                <li><a href="nossos-cursos">Cursos</a></li>
+                <li><a href="videos">Videos</a></li>
+                <li><a href="fale_comigo">Fale Comigo</a></li>
               </ul>
             </div>
             <div class="social">
